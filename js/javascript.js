@@ -1,5 +1,8 @@
 $(function() {
-	$('.contendorImagen').mouseover(function() {
-		$('.descripcion').css('display','block');
+	$('.contenedorImagen').mouseover(function() {
+		$('.descripcion').fadeIn();
+	});
+	$('.contenedorImagen').mouseout(function() {
+		$('.descripcion').fadeOut();
 	});
 });
